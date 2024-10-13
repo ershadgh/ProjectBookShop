@@ -1,0 +1,56 @@
+﻿@model Provice
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12">
+
+        <div class="card">
+            <div class="bg-light card-header">
+                نام شهرهای استان:@Model.ProviceName
+            </div>
+            <div class="card-body">
+                <p>   <a asp-action="Craete" asp-route-id="@Model.ProviceID" class="btn btn-primary">ایجاد شهر جدید</a></p>
+                <a></a>
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>نام شهر</th>
+
+                            <th>عملیات</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Cities)
+                        {
+                            <tr>
+                                <td>
+                                    @item.CityName
+                                </td>
+
+                                <td>
+                                    <a asp-action="Edit" asp-route-id="@item.CityID" class="btn btn-success btn-icon">
+                                        <i class="fa fa-edit">
+
+                                        </i>
+                                    </a> |
+                                    <a asp-action="Detail" asp-route-id="@item.CityID"><i class="fa fa-eye">
+
+                                    </i></a> |
+                                    <a asp-action="Delete" asp-route-id="@item.CityID" class="btn btn-success btn-icon">
+                                        <i class="fa fa-trash">
+
+                                        </i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

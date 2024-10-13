@@ -1,0 +1,73 @@
+﻿@model ProjectBookShop.Models.ViewModels.RolesViewModel
+@{
+    ViewData["Title"] = "EditRole";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<div class="row">
+   <div class="col-md-12">
+       <div class="card">
+           <div class="card-header bg-light">
+             ویرایش نقش 
+           </div>
+         
+
+            @if (ViewBag.Error != null)
+            {
+                <div class="alert alert-danger alert-dissamble">
+                    @ViewBag.Error
+                    <button type="button" class="close" data-dismiss="alert" aria-label="close">
+                        <span aria-hidden="true">&times;</span>
+
+                    </button>
+                </div>
+            }
+
+          
+            <form asp-action="EditRole">
+                <div asp-validation-summary="ModelOnly" class="text-dangr"></div>
+               <div class="row card-body mb-2">
+                    
+                           <input type="hidden" asp-for="RoleID" />
+                   <div class="col-md-7 form-group">
+                       <div class="row">
+                         
+                           <div class="col-md-9">
+                               <label asp-for="RoleName"></label>
+                           </div>
+                           <div class="col-md-9">
+                               <input asp-for="RecentRoleName" type="hidden" />
+                               <input asp-for="RoleName" class="form-control" />
+                               <span asp-validation-for="RoleName" class="text-danger"></span>
+                           </div>
+                       </div>
+                   </div>
+                    <div class="col-md-7 form-group">
+                        <div class="row">
+
+                            <div class="col-md-12">
+                                <label asp-for="Description"></label>
+                            </div>
+                            <div class="col-md-9">
+                                <textarea asp-for="Description" class="form-control"></textarea>
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="col-md-7">
+                       <div class="col-md-9">
+                            <button type="submit" class="btn btn-info float-right">ذخیره تغییرات</button>
+                       </div>
+                       
+                   </div>
+               </div>
+           </form>
+       </div>
+
+   </div>
+</div>
+@section scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

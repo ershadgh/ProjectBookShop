@@ -1,0 +1,182 @@
+﻿@model ProjectBookShop.Models.ViewModels.ReadAllBook
+@inject ProjectBookShop.classes.ConvertDate ConvertMladiToShamsi
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<h2>جزِئییات</h2>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header bg-light">
+                اطلاعات کتاب:@Model.Title
+            </div>
+            <div class="card-body">
+              <div class="row">
+                    <div class="col-md-2" >
+                        <img src="~/images/book.png" style="height:200px" />
+                    </div>
+                   
+                 <div class="col-md-9">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>عنوان کتاب:@Model.Title</p>
+                                <p>شابک:@Model.ISBN</p>
+                                <p>سال انتشار:@Model.PublisheYear</p>
+                                <p>قیمت:@Model.Price</p>
+                                <p>موجودی:@Model.Stock</p>
+                                <p>تعداد صحفات:@Model.NumOfPages</p>
+                                <p>زبان کتا:@Model.LanguageName</p>
+                            </div>
+                            <div class="col-md-6">
+
+
+                                <p>
+                                    نویسندگان:
+                                    @* @{
+                                        var AuthorList = ViewBag.Autors as List<ProjectBookShop.Models.Author>;
+                                    }
+
+                                    @{
+                                        string Author = "";
+                                    }
+                                    @if (AuthorList.Count() != 0)
+                                        @foreach (var item in AuthorList)
+                                        {
+                                            if (Author != "")
+                                            {
+
+                                                Author = Author + "-" + item.FirstName + " " + item.LastName;
+                                            }
+                                            else
+                                            {
+                                                Author = item.FirstName + " " + item.LastName;
+                                            }
+
+                                        }
+ *@
+                                    @Model.Authors
+
+                                </p>
+
+                                <p>
+                                    مترجمان:@Model.Transslators
+                                  @*   @{
+                                        var TranslatorList = ViewBag.Translate as List<ProjectBookShop.Models.Translator>;
+                                    }
+
+                                    @if (TranslatorList.Count() != 0)
+                                    {
+                                        string Translator = "";
+                                        @foreach (var item in TranslatorList)
+                                        {
+                                            if (Translator != "")
+                                            {
+                                                Translator = Translator + "-" + item.Name + " " + item.Family;
+                                            }
+                                            else
+                                            {
+
+                                                Translator = item.Name + " " + item.Family;
+                                            }
+
+                                        }
+                                        @Translator
+                                    }
+                                    else
+                                    {
+                                        <span>-</span>
+                                    }
+ *@
+
+
+
+                                </p>
+                                <p>
+                                    دسته بندی:
+                                    @{
+                                        if(Model.Categories!="")
+                                        {
+                                            @Model.Categories
+                                                                                            }
+                                        else
+                                        {
+                                          <span>-</span>  
+                                        }
+                                    }
+                                   
+                                   @*  @{
+                                        var catagories = ViewBag.Categories as List<ProjectBookShop.Models.Category>;
+                                    }
+                                    @if (catagories.Count() != 0)
+                                    {
+                                        string catagriName = "";
+                                        @foreach (var item in catagories)
+                                        {
+                                            if (catagriName != "")
+                                            {
+                                                catagriName += catagriName + " " + item.CategoryName;
+                                            }
+                                            else
+                                            {
+                                                catagriName = item.CategoryName;
+                                            }
+
+                                        }
+                                        @catagriName
+                                    }
+                                    else
+                                    {
+                                        <span>-</span>
+                                    } *@
+
+                                </p>
+
+                                <p>ناشر:@Model.PublisherName</p>
+
+                                <p>
+                                    تاریخ انتشار:
+                                    @if (Model.PublisheDate != DateTime.MinValue)
+                                    {
+                                        @ConvertMladiToShamsi.ConverMiladitoShamsi(@Model.PublisheDate, "yyyy/MM/DD")
+                                        ;
+                                    }
+                                    else
+                                    {
+                                        <span>-</span>
+                                    }
+                                </p>
+
+                                <p></p>
+                                <p>
+                                    وضعیت:
+                                    @{
+                                        if (Model.IsPublishe == true)
+                                        {
+                                            <span>منتشر شده</span>
+                                        }
+                                        else
+                                        {
+
+                                            <span>پیش نویس</span>
+                                        }
+                                    }
+                                </p>
+                               
+                            </div>
+                        </div>
+                 </div>
+                 <div class="col-md-12">
+                     <hr />
+                        <p>
+                            خلاصه کتاب:@Model.Summery
+                        </p>
+                 </div>
+              </div>
+              
+            </div>
+        </div>
+    </<div>
+</div>

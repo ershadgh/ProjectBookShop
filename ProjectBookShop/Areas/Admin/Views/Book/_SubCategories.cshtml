@@ -1,0 +1,29 @@
+﻿@model IEnumerable<ProjectBookShop.Models.ViewModels.TreeViewCategory>
+<ul>
+
+    @foreach (var item in Model)
+    {
+        <li>
+            @if (item.CategoryID != null)
+            {
+                @if (item.CategoryID.Contains(item.id))
+                {
+                    <input type="checkbox" name="CategoryID" value="@item.id" checked> @item.title
+
+                }
+                else
+                {
+                    <input type="checkbox" name="CategoryID" value="@item.id"> @item.title
+
+                }
+                @await Html.PartialAsync("_SubCategories", item.subs)
+            }
+            else
+            {
+                <input type="checkbox" name="CategoryID" value="@item.id"> @item.title
+                @await Html.PartialAsync("_SubCategories", item.subs)
+            }
+        </li>
+    }
+    
+</ul>

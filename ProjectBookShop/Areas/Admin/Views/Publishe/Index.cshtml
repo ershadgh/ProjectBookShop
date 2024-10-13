@@ -1,0 +1,226 @@
+﻿@* @model IEnumerable<ProjectBookShop.Models.Publisher> *@
+@model IEnumerable<ProjectBookShop.Models.ViewModels.Publisherviewmodel>
+@using Newtonsoft.Json;
+@using System.Web.Helpers;
+@using ProjectBookShop.Models.ViewModels;
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+@{
+    var b = 1;
+    int[] arr = null;
+}
+@* @{
+
+    var a = 1;
+    for (int i = 0; i <= Model.Count(); i++)
+    {
+        arr = new int[i];
+        if (Model.Count() == arr.Length)
+        {
+            for (int j = 0; j < arr.Length; j++)
+            {
+                arr[j] = a;
+                a += 1;
+            }
+        }
+
+
+    }
+} *@
+@* @foreach (var item in Model)
+{
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header bg-light">
+                    ناشر
+                </div>
+                <div class="card-body">
+                    <label asp-for="@item.PublisherName"></label>:  @item.PublisherName
+                    <div>
+                        <canvas class="chart" id="myChart@item.PublisherID"></canvas>
+                        <canvas class="chart" id="myChart1"></canvas>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+}
+
+<script>
+
+    debugger;
+    var coutModeljQ = [1, 2];
+    debugger;
+    console.log(coutModeljQ);
+    $(document).ready($.each(coutModeljQ, function (index, val) {
+        // فراخوانی اکشن GetChartData برای دریافت داده‌های نمودار
+        debugger;
+        console.log(index, val);
+        $.ajax({
+
+            url: '@Url.Action("GetChartData", "Publishe")',
+
+            type: 'GET',
+            dataType: 'json',
+
+            success: function (data) {
+                debugger;
+                var ctx = document.getElementById('myChart1').getContext('2d');
+
+                var myChart = new Chart(ctx, {
+                    type: 'bar', // نوع نمودار
+                    data: data,
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        });
+    }));
+ </script> *@
+@{
+
+    var graphs = TempData["www"] as List<IGrouping<int, ChartData>>;
+    var m = graphs;
+}
+<head>
+
+</head>
+<body>
+    @foreach (var item in Model)
+    {
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header bg-light">
+                        ناشر
+                    </div>
+                    <div class="card-body">
+                        <label asp-for="@item.PublisherName"></label>:  @item.PublisherName
+                        <div>
+                            @foreach (var graph in graphs)
+                            {
+                                <canvas class="chart-@graph.Key" value="@(Newtonsoft.Json.JsonConvert.SerializeObject(graph.Select(x=>x.SentCount)))"></canvas>
+                            
+                            }
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+</body>
+
+@* <script>
+    $(document).ready(function () {
+        var chartIds = [];
+    @foreach (var item in Model)
+    {
+        <text>
+                chartIds.push('@item.PublisherID');
+        </text>
+        }
+            console.log("chartIS"+chartIds);
+            $.each(chartIds, function (index, publisherID) {
+                debugger
+                console.log(`Initializing chart for PublisherID: ${publisherID}`);
+                var canvasId = `#myChart${publisherID}`;
+                console.log(`Canvas ID: ${canvasId}`);
+                var canvasElement = $(canvasId);
+
+            // canvasElement.length
+                if (true) {
+                    debugger;
+                    $.ajax({
+                        url: '@Url.Action("GetChartData", "Publishe",Model)',
+                        type: 'GET',
+                        dataType: 'json',
+                       data: { id: publisherID }, // Send the PublisherID to get specific data
+                        success: function (data) {
+                            debugger;
+                            console.log(`Data received for PublisherID ${publisherID}:`, data);
+                            // var ctx = canvasElement[0].getContext('2d');
+                            var ctx = canvasId;
+                            console.log("ctx" + ctx);
+                            new Chart(ctx, {
+                                type: 'bar', // Chart type
+
+                                data: {
+                                    labels: data.label, // assuming data.labels contains labels
+                                    datasets: [{
+                                    label: 'dataset for' + publisherID, // assuming data.datasets contains datasets
+                                        data1: data.values // assuming data.values contains values
+                                    }]
+                                },
+                                options: {
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true
+                                        }
+                                    }
+                                }
+                            });
+                        },
+                        error: function (error) {
+                            console.error(`Error loading data for PublisherID ${publisherID}:`, error);
+                        }
+                    });
+                } else {
+                    console.error(`Canvas element not found for ID: ${canvasId}`);
+                }
+            });
+    });
+</script>
+ *@
+
+<script>
+    @Model
+    $(document).ready(funcation(){
+        var countChart = $(".chart");
+        for(int i = 0;i<= countChart.count(); i++)
+    var ctx = document.getElementsByClassName('chart-' + i).getContext('2d');
+
+    var chart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: [10, 20, 30],
+            datasets: [{
+                label: [1, 2, 3],
+                data: '',
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+        })
+        }
+</script>

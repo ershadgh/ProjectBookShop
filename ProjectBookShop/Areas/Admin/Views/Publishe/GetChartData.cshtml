@@ -1,0 +1,103 @@
+﻿
+@* @model IEnumerable<ProjectBookShop.Models.Publisher> *@
+    @model IEnumerable<ProjectBookShop.Models.ViewModels.Publisherviewmodel>
+@using Newtonsoft.Json;
+@using System.Web.Helpers;
+@using ProjectBookShop.Models.ViewModels
+
+
+
+@{
+    ViewData["Title"] = "GetChartData";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+@* @{
+    var tem = Convert.ToString(Model);
+}
+@{
+    var modelChart = JsonConvert.DeserializeObject<List<ProjectBookShop.Models.ViewModels.chartviewmodel>>(tem);
+} *@
+@foreach (var item in Model )
+{
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header bg-light">
+                    ناشر
+                </div>
+                <div class="card-body">
+                    <label asp-for="@item.PublisherName"></label>:  @item.PublisherName
+                    <div>
+                        <canvas id="myChart"></canvas>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @* @{
+
+    // var temp = JsonConvert.DeserializeObject < ProjectBookShop.Models.ViewModels.chartviewmodel > (TempData["data"] as string);
+    var temp = TempData["data"];
+    var t = temp;
+
+} *@
+
+    @*   <script>
+    $(document).ready(function () {
+        const ctx = document.getElementById('myChart');
+        new Chart(ctx, {
+            type: 'bar',
+
+            data: {
+                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                datasets: [{
+                    label: '# of Votes',
+                        data: @Html.Raw(Json.Serialize(item.datachart)),
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+    })
+ </script> *@
+    <script>
+        $(document).ready(function () {
+            // فراخوانی اکشن GetChartData برای دریافت داده‌های نمودار
+            $.ajax({
+                url: '@Url.Action("GetChartData", "Publishe")',
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {
+                    var ctx = document.getElementById('myChart').getContext('2d');
+                    var myChart = new Chart(ctx, {
+                        type: 'bar', // نوع نمودار
+                        data: data,
+                        options: {
+                            scales: {
+                                y: {
+                                    beginAtZero: true
+                                }
+                            }
+                        }
+                    });
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+        });
+    </script>
+
+}
+
+

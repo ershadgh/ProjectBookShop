@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "react-icons": "4.11.0",
+    "Select2": "3.5.7"
+  }
+}

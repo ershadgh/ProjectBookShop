@@ -1,0 +1,8 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (ViewBag.ConfirmEmailAlert!=null)
+{
+    <p class="alert alert-info">@ViewBag.ConfirmEmailAlert</p>
+}

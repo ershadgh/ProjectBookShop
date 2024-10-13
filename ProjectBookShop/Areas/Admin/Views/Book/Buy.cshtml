@@ -1,0 +1,51 @@
+﻿@model IEnumerable< ProjectBookShop.Models.ViewModels.ProductsViewModel>
+@{
+    ViewData["Title"] = "Buy";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12">
+
+
+        <div class="card">
+            <div class="card card-header">
+                فاکتور مشتری
+            </div>
+            <div class="card card-body">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                نام محصول
+                            </th>
+                            <th>
+                                قیمت محصول
+                            </th>
+                            <th>
+                                جمع قیمت
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td class="text-center">
+                                    @item.ProductName
+                                </td>
+                                <td class="text-center">
+                                    @item.Price
+                                </td>
+                                <td class="text-center">
+                                    @item.TotalPrice
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,35 @@
+﻿@model ProjectBookShop.Models.ViewModels.RolesViewModel
+@{
+    ViewData["Title"] = "DelelteRole";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<di v class="row w-75 m-auto">
+    <div class="col-mad-12">
+        <div class="card">
+            <div class="card-header bg-light">
+                حذف اطلاعات
+            </div>
+            <div class="card-body">
+                 @if(ViewBag.Error!=null)
+                {
+                    <div class="alert alert-danger alert-dismissable">
+                        @ViewBag.Error
+                        <button type="button" class="Close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                }
+                <p> آیا شما میخواهید <span>@Model.RoleName را از لیست نقش ها حذف کنید؟</span></p>
+            </div>
+            <div class="card-footer bg-light text-right clearfix">
+                <form asp-action="DeleteRole">
+                    <input type="hidden" value="@Model.RoleID" name="id" />
+                    <input type="submit" value="بله" class="btn btn-danger mr-2 float-left" />
+                    <a  asp-area="admin" asp-controller="RolesManager" asp-action="Index" class="btn btn-info float-left">خیر</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</di>
+

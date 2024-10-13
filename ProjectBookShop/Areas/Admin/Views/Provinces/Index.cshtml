@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ProjectBookShop.Models.Provice>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<h2>Index</h2>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="bg-light card-header">
+                نام استان ها
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>@Html.DisplayNameFor(model => model.ProviceName)</th>
+                            <th>شهرهای استان</th>
+                            <th>عملیات</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model as List<Provice>)
+                        {
+                            <tr>
+                                <td>
+                                    @item.ProviceName
+                                </td>
+                                <td>
+                                    <a asp-area="Admin" asp-controller="Cities" asp-action="Index" asp-route-id="@item.ProviceID"  class="btn-sm btn-info">مشاهده شهرها</a>
+                                </td>
+                                <td>
+                                    <a  asp-action="Edit" asp-route-id="@item.ProviceID">Edit</a> |
+                                    <a asp-action="Details" asp-route-id="@item.ProviceID">Details</a> |
+                                    <a asp-action="Delete" asp-route-id="@item.ProviceID">Delete</a>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

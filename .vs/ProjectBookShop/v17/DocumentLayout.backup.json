@@ -1,0 +1,561 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\project\\ProjectBookShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\models\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\models\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\models\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\models\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\models\\repository\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\models\\repository\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\areas\\admin\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\areas\\admin\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\areas\\api\\controllers\\booksapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\areas\\api\\controllers\\booksapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\areas\\admin\\bookapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\areas\\admin\\bookapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\models\\bookshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\models\\bookshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\projectbookshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\projectbookshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\areas\\identity\\sercices\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\areas\\identity\\sercices\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\areas\\identity\\data\\applicationusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\areas\\identity\\data\\applicationusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\areas\\admin\\controllers\\usermanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\areas\\admin\\controllers\\usermanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\areas\\identity\\data\\applicationidentityerrordescriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\areas\\identity\\data\\applicationidentityerrordescriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\views\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\views\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\areas\\identity\\data\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\areas\\identity\\data\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\models\\viewmodels\\usersmanagerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\models\\viewmodels\\usersmanagerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\areas\\identity\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\areas\\identity\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\models\\viewmodels\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\models\\viewmodels\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\areas\\admin\\views\\usermanager\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\areas\\admin\\views\\usermanager\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\areas\\admin\\views\\usermanager\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\areas\\admin\\views\\usermanager\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\areas\\admin\\views\\usermanager\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\areas\\admin\\views\\usermanager\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\areas\\admin\\views\\rolesmanager\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\areas\\admin\\views\\rolesmanager\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\areas\\api\\controllers\\usersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\areas\\api\\controllers\\usersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\areas\\api\\classes\\apiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\areas\\api\\classes\\apiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|d:\\project\\projectbookshop\\projectbookshop\\migrations\\identitydb\\20241001153833_updatebirthdateappusertb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DAFBB3-5047-4823-8A26-FDE3A5B0D082}|ProjectBookShop\\ProjectBookShop.csproj|solutionrelative:projectbookshop\\migrations\\identitydb\\20241001153833_updatebirthdateappusertb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Admin\\BookController.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Areas\\Admin\\BookController.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Admin\\BookController.cs",
+              "RelativeToolTip": "ProjectBookShop\\Areas\\Admin\\BookController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAawDYAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T11:08:41.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Models\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Models\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Models\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "ProjectBookShop\\Models\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T10:58:09.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRepositoryBase.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Models\\Repository\\IRepositoryBase.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Models\\Repository\\IRepositoryBase.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Models\\Repository\\IRepositoryBase.cs",
+              "RelativeToolTip": "ProjectBookShop\\Models\\Repository\\IRepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T10:55:18.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Models\\Repository\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Models\\Repository\\RepositoryBase.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Models\\Repository\\RepositoryBase.cs",
+              "RelativeToolTip": "ProjectBookShop\\Models\\Repository\\RepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T10:55:15.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookApiController.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Admin\\BookApiController.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Areas\\Admin\\BookApiController.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Admin\\BookApiController.cs",
+              "RelativeToolTip": "ProjectBookShop\\Areas\\Admin\\BookApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T07:37:48.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookShopContext.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Models\\BookShopContext.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Models\\BookShopContext.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Models\\BookShopContext.cs",
+              "RelativeToolTip": "ProjectBookShop\\Models\\BookShopContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T16:40:30.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationUserManager.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Identity\\Data\\ApplicationUserManager.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Areas\\Identity\\Data\\ApplicationUserManager.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Identity\\Data\\ApplicationUserManager.cs",
+              "RelativeToolTip": "ProjectBookShop\\Areas\\Identity\\Data\\ApplicationUserManager.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA3wD4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T15:31:22.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Identity\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Areas\\Identity\\Data\\ApplicationUser.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Identity\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "ProjectBookShop\\Areas\\Identity\\Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T15:30:54.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Program.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Program.cs",
+              "RelativeToolTip": "ProjectBookShop\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T05:08:58.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjectBookShop.csproj",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\ProjectBookShop.csproj",
+              "RelativeDocumentMoniker": "ProjectBookShop\\ProjectBookShop.csproj",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\ProjectBookShop.csproj",
+              "RelativeToolTip": "ProjectBookShop\\ProjectBookShop.csproj",
+              "ViewState": "AgIAANIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-01T12:51:49.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BooksApiController.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Api\\Controllers\\BooksApiController.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Areas\\Api\\Controllers\\BooksApiController.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Api\\Controllers\\BooksApiController.cs",
+              "RelativeToolTip": "ProjectBookShop\\Areas\\Api\\Controllers\\BooksApiController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T15:41:52.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IdentityDBContext.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Identity\\Data\\IdentityDBContext.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Areas\\Identity\\Data\\IdentityDBContext.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Identity\\Data\\IdentityDBContext.cs",
+              "RelativeToolTip": "ProjectBookShop\\Areas\\Identity\\Data\\IdentityDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T15:37:08.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjectBookShop\\appsettings.json",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\appsettings.json",
+              "RelativeToolTip": "ProjectBookShop\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-05T16:45:59.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20241001153833_UpdateBirthDateAppUserTB.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Migrations\\IdentityDB\\20241001153833_UpdateBirthDateAppUserTB.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Migrations\\IdentityDB\\20241001153833_UpdateBirthDateAppUserTB.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Migrations\\IdentityDB\\20241001153833_UpdateBirthDateAppUserTB.cs",
+              "RelativeToolTip": "ProjectBookShop\\Migrations\\IdentityDB\\20241001153833_UpdateBirthDateAppUserTB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T15:38:34.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "ProjectBookShop\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAowGoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T19:54:30.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AccountViewModel.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Models\\ViewModels\\AccountViewModel.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Models\\ViewModels\\AccountViewModel.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Models\\ViewModels\\AccountViewModel.cs",
+              "RelativeToolTip": "ProjectBookShop\\Models\\ViewModels\\AccountViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAvwBgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T14:39:10.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "ProjectBookShop\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T14:33:03.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ProjectBookShop\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwC8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T14:25:14.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationIdentityErrorDescriber.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Identity\\Data\\ApplicationIdentityErrorDescriber.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Areas\\Identity\\Data\\ApplicationIdentityErrorDescriber.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Identity\\Data\\ApplicationIdentityErrorDescriber.cs",
+              "RelativeToolTip": "ProjectBookShop\\Areas\\Identity\\Data\\ApplicationIdentityErrorDescriber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T06:34:13.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Identity\\Sercices\\EmailSender.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Areas\\Identity\\Sercices\\EmailSender.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Identity\\Sercices\\EmailSender.cs",
+              "RelativeToolTip": "ProjectBookShop\\Areas\\Identity\\Sercices\\EmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T04:38:16.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserManagerController.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Admin\\Controllers\\UserManagerController.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Areas\\Admin\\Controllers\\UserManagerController.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Admin\\Controllers\\UserManagerController.cs",
+              "RelativeToolTip": "ProjectBookShop\\Areas\\Admin\\Controllers\\UserManagerController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAawDAAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T06:06:27.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProjectBookShop\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T17:52:25.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProjectBookShop\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T17:52:34.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Views\\Account\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Views\\Account\\ConfirmEmail.cshtml",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Views\\Account\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "ProjectBookShop\\Views\\Account\\ConfirmEmail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T19:16:44.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProjectBookShop\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T19:32:21.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Admin\\Views\\UserManager\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Areas\\Admin\\Views\\UserManager\\Index.cshtml",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Admin\\Views\\UserManager\\Index.cshtml",
+              "RelativeToolTip": "ProjectBookShop\\Areas\\Admin\\Views\\UserManager\\Index.cshtml",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAJEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T06:28:34.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UsersManagerViewModel.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Models\\ViewModels\\UsersManagerViewModel.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Models\\ViewModels\\UsersManagerViewModel.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Models\\ViewModels\\UsersManagerViewModel.cs",
+              "RelativeToolTip": "ProjectBookShop\\Models\\ViewModels\\UsersManagerViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T06:10:39.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Admin\\Views\\UserManager\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Areas\\Admin\\Views\\UserManager\\Delete.cshtml",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Admin\\Views\\UserManager\\Delete.cshtml",
+              "RelativeToolTip": "ProjectBookShop\\Areas\\Admin\\Views\\UserManager\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T12:51:46.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Admin\\Views\\UserManager\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Areas\\Admin\\Views\\UserManager\\Edit.cshtml",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Admin\\Views\\UserManager\\Edit.cshtml",
+              "RelativeToolTip": "ProjectBookShop\\Areas\\Admin\\Views\\UserManager\\Edit.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T06:09:19.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UsersApiController.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Api\\Controllers\\UsersApiController.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Areas\\Api\\Controllers\\UsersApiController.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Api\\Controllers\\UsersApiController.cs",
+              "RelativeToolTip": "ProjectBookShop\\Areas\\Api\\Controllers\\UsersApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T16:35:30.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ApiResult.cs",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Api\\Classes\\ApiResult.cs",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Areas\\Api\\Classes\\ApiResult.cs",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Api\\Classes\\ApiResult.cs",
+              "RelativeToolTip": "ProjectBookShop\\Areas\\Api\\Classes\\ApiResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T15:41:52.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "ViewState": "AgIAAJwAAAAAAAAAAIAywL0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-09-25T14:48:02.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditRole.cshtml",
+              "DocumentMoniker": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Admin\\Views\\RolesManager\\EditRole.cshtml",
+              "RelativeDocumentMoniker": "ProjectBookShop\\Areas\\Admin\\Views\\RolesManager\\EditRole.cshtml",
+              "ToolTip": "D:\\project\\ProjectBookShop\\ProjectBookShop\\Areas\\Admin\\Views\\RolesManager\\EditRole.cshtml",
+              "RelativeToolTip": "ProjectBookShop\\Areas\\Admin\\Views\\RolesManager\\EditRole.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T15:54:00.657Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

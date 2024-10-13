@@ -1,0 +1,41 @@
+﻿@model City
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header bg-light">
+              حذف شهر
+            </div>
+            <div class="card-body ">
+
+                <form asp-action="Delete">
+                    <div class="row card-body mb-3">
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <input type="hidden" asp-for="CityID" />
+                                <input type="hidden" asp-for="ProviceID" />
+                                <div class="col-md-3">
+                                    <label asp-for="CityName" class="control-label"></label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input asp-for="CityName" class="form-control" />
+                                    <span asp-validation-for="CityName" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <button class="btn btn-info float-right" type="submit">حذف شهر </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -23,6 +23,14 @@ namespace ProjectBookShop.Models.UnitOfWork
             IRepositoryBase<TEntity> repositoryBase = new RepositoryBase<TEntity, BookShopContext>(_context);
             return repositoryBase;
         }
+        
+         public IBookRepository _IBookRepository{
+       
+            get 
+            if(IBookRepository is null)
+            return new BookRepository(_context,_convertDate,this);
+            ;}
+       
         public async Task commit()
         {
             _context.SaveChanges();

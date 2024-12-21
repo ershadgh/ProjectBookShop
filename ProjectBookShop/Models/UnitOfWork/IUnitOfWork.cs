@@ -6,7 +6,8 @@ namespace ProjectBookShop.Models.UnitOfWork
     {
         
         BookShopContext _context { get; }
-        IBookRepository _IBookRepository{get;}
+   
+        IBookRepository BookRepository { get; }
         IBookRepository BookRepositoryy();
         IRepositoryBase<TEntity> Baserepository<TEntity>() where TEntity : class;
         Task commit();

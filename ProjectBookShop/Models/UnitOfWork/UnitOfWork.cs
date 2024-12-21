@@ -1,4 +1,5 @@
-﻿using ProjectBookShop.classes;
+﻿using Microsoft.EntityFrameworkCore;
+using ProjectBookShop.classes;
 using ProjectBookShop.Models.Repository;
 
 namespace ProjectBookShop.Models.UnitOfWork
@@ -6,6 +7,8 @@ namespace ProjectBookShop.Models.UnitOfWork
     public class UnitOfWork:IUnitOfWork
     {
         private readonly IConvertDate _convertDate;
+        private IBookRepository _IBooksRepository;
+
         public  BookShopContext _context { get; }
       
         public UnitOfWork(BookShopContext context,IConvertDate convertDate)
@@ -23,14 +26,23 @@ namespace ProjectBookShop.Models.UnitOfWork
             IRepositoryBase<TEntity> repositoryBase = new RepositoryBase<TEntity, BookShopContext>(_context);
             return repositoryBase;
         }
+
+        public IBookRepository BookRepository
+        {
+
+            get
+            {
+                if (_IBooksRepository == null)
+                {
+                    _IBooksRepository = new BookRepository(_context, _convertDate, this);
+                }
+                return _IBooksRepository;
+            }
+            
+        }
+
         
-         public IBookRepository _IBookRepository{
-       
-            get 
-            if(IBookRepository is null)
-            return new BookRepository(_context,_convertDate,this);
-            ;}
-       
+
         public async Task commit()
         {
             _context.SaveChanges();

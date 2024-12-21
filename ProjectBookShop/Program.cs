@@ -113,16 +113,16 @@ app.UseRouting();
 app.UseAuthorization();
 
 
-//app.MapControllerRoute(
-//    name: "Admin",
-//    pattern: "{area=Admin}/{controller=Book}/{action=Index}/{id?}"
-//  );
-
-
 app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}"
-    );
+    name: "Admin",
+    pattern: "{area=Admin}/{controller=Book}/{action=Index}/{id?}"
+  );
+
+
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{controller=Home}/{action=Index}/{id?}"
+//    );
 
 
 app.MapRazorPages();

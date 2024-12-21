@@ -833,3 +833,4 @@ D:\project\ProjectBookShop\ProjectBookShop\obj\Debug\net7.0\ProjectBookShop.pdb
 D:\project\ProjectBookShop\ProjectBookShop\obj\Debug\net7.0\ProjectBookShop.genruntimeconfig.cache
 D:\project\ProjectBookShop\ProjectBookShop\obj\Debug\net7.0\ref\ProjectBookShop.dll
 D:\project\ProjectBookShop\ProjectBookShop\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\project\ProjectBookShop\ProjectBookShop\obj\Debug\net7.0\ProjectBookShop.sourcelink.json

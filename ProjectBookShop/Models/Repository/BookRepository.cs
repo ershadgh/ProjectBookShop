@@ -25,7 +25,7 @@ namespace ProjectBookShop.Models.Repository
         public List<BooksIndexViewModel> GetAllBook(string title, string ISBN, string Language, string PublusherName, string Author, string Translator, string Category)
         {
 
-
+            var book = _context.Books.Select(b => b.Title);
             string AuthorsName = "";
             string TranslatorName = "";
             string CatagoryName = "";
